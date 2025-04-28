@@ -1,0 +1,116 @@
+{
+    "test_case_01": [
+        {
+            "num":"0",
+            "limit": "15"
+        },
+        {
+            "num":"0",
+            "limit": "25"
+        },
+        {
+            "num":"0",
+            "limit": "50"
+        },
+        {
+            "num":"0",
+            "limit": "75"
+        },
+        {
+            "num":"0",
+            "limit": "100"
+        }
+    ],
+    
+    "test_case_02": [
+        {
+            "num":"15",
+            "limit": "15",
+            "filters": ["//div[@id='mz-filter-panel-0-4']/div/div[2]/div/label", "//div[@id='mz-filter-panel-0-4']/div/div[3]/div/label"]
+        },
+        {
+            "num":"15",
+            "limit": "25",
+            "filters": ["//div[@id='mz-filter-panel-0-4']/div/div[2]/div/label", "//div[@id='mz-filter-panel-0-4']/div/div[3]/div/label"]
+
+        },
+        {
+            "num":"15",
+            "limit": "50",
+            "filters": ["//div[@id='mz-filter-panel-0-4']/div/div[2]/div/label", "//div[@id='mz-filter-panel-0-4']/div/div[3]/div/label"]
+        },
+        {
+            "num":"15",
+            "limit": "75",
+            "filters": ["//div[@id='mz-filter-panel-0-4']/div/div[2]/div/label", "//div[@id='mz-filter-panel-0-4']/div/div[3]/div/label"]
+        },
+        {
+            "num":"15",
+            "limit": "100",
+            "filters": ["//div[@id='mz-filter-panel-0-4']/div/div[2]/div/label", "//div[@id='mz-filter-panel-0-4']/div/div[3]/div/label"]
+        }
+    ],
+
+    "test_case_03":{
+        "num":"42",
+        "limit": "15",
+        "pages":"3",
+        "expect_mess":{
+            "page1": "Showing 1 to 15 of 42 (3 Pages)",
+            "page2": "Showing 16 to 30 of 42 (3 Pages)",
+            "page3": "Showing 31 to 42 of 42 (3 Pages)"
+        }
+    },
+    "test_case_04":{
+        "num":"42",
+        "limit": "25",
+        "pages":"2",
+        "expect_mess":{
+            "page1": "Showing 1 to 25 of 42 (2 Pages)",
+            "page2": "Showing 26 to 42 of 42 (2 Pages)"
+        }
+    },
+    "test_case_05":{
+        "num":"58",
+        "limit": "50",
+        "pages":"2",
+        "expect_mess":{
+            "page1": "Showing 1 to 50 of 58 (2 Pages)",
+            "page2": "Showing 51 to 58 of 58 (2 Pages)"
+        }
+    },
+    "test_case_06":{
+        "num":"75",
+        "limit": "75",
+        "pages":"1",
+        "filters":[
+            "//div[@id='mz-filter-panel-0-1']/div/a",
+            "//div[@id='mz-filter-panel-0-1']/div/div[1]/div/label",
+            "//div[@id='mz-filter-panel-0-1']/div/div[2]/div/label",
+            "//div[@id='mz-filter-panel-0-1']/div/div[3]/div/label",
+            "//div[@id='mz-filter-panel-0-1']/div/div[4]/div/label",
+            "//div[@id='mz-filter-panel-0-1']/div/div[5]/div/label",
+            "//div[@id='mz-filter-panel-0-1']/div/div[6]/div/label",
+            "//div[@id='mz-filter-panel-0-1']/div/div[7]/div/label"
+        ],
+        "expect_mess": "Showing 1 to 75 of 75 (1 Pages)"
+        
+    },
+    "test_case_07":{
+        "num":"75",
+        "limit": "100",
+        "pages":"1",
+        "filters":[
+            "//div[@id='mz-filter-panel-0-1']/div/a",
+            "//div[@id='mz-filter-panel-0-1']/div/div[1]/div/label",
+            "//div[@id='mz-filter-panel-0-1']/div/div[2]/div/label",
+            "//div[@id='mz-filter-panel-0-1']/div/div[3]/div/label",
+            "//div[@id='mz-filter-panel-0-1']/div/div[4]/div/label",
+            "//div[@id='mz-filter-panel-0-1']/div/div[5]/div/label",
+            "//div[@id='mz-filter-panel-0-1']/div/div[6]/div/label",
+            "//div[@id='mz-filter-panel-0-1']/div/div[7]/div/label"
+        ],
+        "expect_mess": "Showing 1 to 75 of 75 (1 Pages)"
+        
+    }
+}
