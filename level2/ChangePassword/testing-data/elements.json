@@ -1,0 +1,32 @@
+{
+    "urls": {
+        "home": "https://ecommerce-playground.lambdatest.io/index.php?route=common/home",
+        "login": "https://ecommerce-playground.lambdatest.io/index.php?route=account/login",
+        "change_password": "https://ecommerce-playground.lambdatest.io/index.php?route=account/password"
+    },
+    "elements": {
+        "login": {
+            "email_field": "input-email",
+            "password_field": "input-password",
+            "login_button": "//input[@value='Login']"
+        },
+        "change_password": {
+            "new_password_field": "input-password",
+            "confirm_password_field": "input-confirm",
+            "continue_button": "//input[@value='Continue']"
+        },
+        "logout": {
+            "my_account": "My account",
+            "logout_link": "//a[contains(text(),'Logout')]",
+            "continue_button": "Continue"
+        },
+        "messages": {
+            "new_password_error": "//div[@id='content']/form/div/div/div",
+            "confirm_password_error": "//div[@id='content']/form/div[2]/div/div"
+        },
+        "expect_mess":{
+            "new_password_error": "Password must be between 4 and 20 characters!",
+            "confirm_password_error": "Password confirmation does not match password!"
+        }
+    }
+}

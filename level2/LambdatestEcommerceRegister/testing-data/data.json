@@ -1,0 +1,74 @@
+{
+    "test_case_01": {
+        "firstname": "John",
+        "lastname": "Doe",
+        "email": "longtest100@gmail.com",
+        "telephone": "1234567890",
+        "password": "11111122",
+        "confirm_password": "11111122"
+    },
+    "test_case_02": {
+        "firstname": "",
+        "lastname": "Doe",
+        "email": "longtestnotused@gmail.com",
+        "telephone": "1234567890",
+        "password": "11111122",
+        "confirm_password": "11111122"
+    },
+    "test_case_03": {
+        "firstname": "Jane",
+        "lastname": "DoeDoeDoeDoeDoeDoeDoeDoeDoeDoeDoeDoe",
+        "email": "longtestnotused@gmail.com",
+        "telephone": "9876543210",
+        "password": "222222",
+        "confirm_password": "222222"
+    },
+    "test_case_04": {
+        "firstname": "John",
+        "lastname": "Doe",
+        "email": "longtestnotused@gmail.com",
+        "telephone": "",
+        "password": "11111122",
+        "confirm_password": "11111122"
+    },
+    "test_case_05": {
+        "firstname": "John",
+        "lastname": "Doe",
+        "email": "invalid-email@gmail",
+        "telephone": "1234567890",
+        "password": "11111122",
+        "confirm_password": "11111122"
+    },
+    "test_case_06": {
+        "firstname": "John",
+        "lastname": "Doe",
+        "email": "longtestnotused@gmail.com",
+        "telephone": "1234567890",
+        "password": "111",
+        "confirm_password": "111"
+    },
+    "test_case_07": {
+        "firstname": "John",
+        "lastname": "Doe",
+        "email": "longtestnotused@gmail.com",
+        "telephone": "1234567890",
+        "password": "111111",
+        "confirm_password": "000000"
+    },
+    "test_case_08": {
+        "firstname": "John",
+        "lastname": "Doe",
+        "email": "longtestnotused@gmail.com",
+        "telephone": "1234567890",
+        "password": "11111122",
+        "confirm_password": "11111122"
+    },
+    "test_case_09": {
+        "firstname": "",
+        "lastname": "DoeDoeDoeDoeDoeDoeDoeDoeDoeDoeDoeDoe",
+        "email": "longtestnotused@gmai",
+        "telephone": "",
+        "password": "111",
+        "confirm_password": "000000"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "test_case_01": {
+        "new_password": "111111",
+        "confirm_password": "111111"
+    },
+    "test_case_02": {
+        "new_password": "111",
+        "confirm_password": "111"
+    },
+    "test_case_03": {
+        "new_password": "111111",
+        "confirm_password": "222222"
+    },
+    "test_case_04": {
+        "new_password": "111",
+        "confirm_password": "111111"
+    }
+}

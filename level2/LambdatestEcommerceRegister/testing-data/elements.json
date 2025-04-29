@@ -1,0 +1,41 @@
+{
+    "urls": {
+        "home": "https://ecommerce-playground.lambdatest.io/index.php?route=common/home",
+        "register": "https://ecommerce-playground.lambdatest.io/index.php?route=account/register"
+    },
+    "elements": {
+        "register": {
+            "firstname_field": "input-firstname",
+            "lastname_field": "input-lastname",
+            "email_field": "input-email",
+            "telephone_field": "input-telephone",
+            "password_field": "input-password",
+            "confirm_password_field": "input-confirm",
+            "privacy_policy_checkbox": "//div[@id='content']/form/div/div/div/label",
+            "continue_button": "//input[@value='Continue']"
+        },
+        "messages": {
+            "firstname_error": "//fieldset[@id='account']/div[2]/div/div",
+            "lastname_error": "//fieldset[@id='account']/div[3]/div/div",
+            "email_error": "//fieldset[@id='account']/div[4]/div/div",
+            "telephone_error": "//fieldset[@id='account']/div[5]/div/div",
+            "password_error": "//div[@id='content']/form/fieldset[2]/div/div/div",
+            "confirm_password_error": "//div[@id='content']/form/fieldset[2]/div[2]/div/div",
+            "privacy_policy_error": "//div[@id='account-register']/div"
+        },
+        "expect_mess": {
+            "firstname_error": "First Name must be between 1 and 32 characters!",
+            "lastname_error": "Last Name must be between 1 and 32 characters!",
+            "email_error": "E-Mail Address does not appear to be valid!",
+            "telephone_error": "Telephone must be between 3 and 32 characters!",
+            "password_error": "Password must be between 4 and 20 characters!",
+            "confirm_password_error": "Password confirmation does not match password!",
+            "privacy_policy_error": "Warning: You must agree to the Privacy Policy!"
+        },
+        "logout": {
+            "my_account": "My account",
+            "logout_link": "//a[contains(text(),'Logout')]",
+            "continue_button": "Continue"
+        }
+    }
+}
